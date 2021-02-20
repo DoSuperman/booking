@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/booking/booking",
+    "pages/my/myinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E54847",
+    "navigationBarTitleText": "消费记录",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#E54847",
+    "list": [{
+      "pagePath": "pages/booking/booking",
+      "text": "新增记录",
+      "iconPath": "images/record.png",
+      "selectedIconPath":"images/record2.png"
+    },
+  {
+      "pagePath": "pages/my/myinfo",
+      "text": "我的",
+      "iconPath": "images/my.png",
+      "selectedIconPath":"images/my2.png"
+    }]
+
+  },
+  "sitemapLocation": "sitemap.json"
+
+ 
+}
