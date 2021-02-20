@@ -1,6 +1,35 @@
-<!--pages/booking/booking.wxml-->
-<text>pages/booking/booking.wxml</text>
+<view  class="testText">
+  <text class="normal">总消费(元)
+  </text>
+  <text class="title">￥330022
+  </text>
 
-<view class="container">
-  <van-button type="primary">按钮</van-button>
+  <van-row>
+    <van-col span="12">
+        <text class="normal">日总消费
+        </text>
+        <text class="normal">￥30003</text>
+    </van-col>
+    <van-col span="12">
+      <text class="normal">月总消费
+      </text>
+      <text class="normal">￥33
+
+      </text>
+    </van-col>
+  </van-row>
 </view>
+
+<view class="record">
+  <view class="record-title">
+    <view class="record-title-text">2021-2-20消费记录</view>
+  </view>
+  <view class="record-info"></view>
+
+  <view class="recrod-add"></view>
+</view>
+
+
+
+
+
